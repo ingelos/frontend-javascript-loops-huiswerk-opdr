@@ -28,7 +28,7 @@ for (let i = 1; i < 6; i++) {
 // ==========================================
 
 for (let i = 0; i < 5; i++) {
-    if ([i] < 4) {
+    if (i < 4) {
         console.log("loop...");
     } else {
         console.log("klaar!");
